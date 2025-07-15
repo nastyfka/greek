@@ -3,12 +3,12 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
 
@@ -97,3 +97,6 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+*.png
+Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground001.tif
+Assets/ALP_Assets/Realistic Terrain Textures Lite/Scenes/TerrainDATA/Terrain.asset
